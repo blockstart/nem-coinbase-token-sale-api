@@ -1,0 +1,23 @@
+{
+  "kycEmail": {
+    "user": "security@someemail.io",
+    "clientId": "yourgooglemailclientid.apps.googleusercontent.com",
+    "clientSecret": "yourgooglemailclientsecret",
+    "refreshToken": "yourgooglemailrefreshtoken"
+  },
+  "randomXEMEmail": {
+  "to": "youremail@someemail.io, anotheremail@someemail.io",
+  "subject": "Received Random XEM - No Associated User -  token sale",
+  "html": ""
+  },
+  "xemSuccesServerErrorEmail": {
+  "to": "youremail@someemail.io, anotheremail@someemail.io",
+  "subject": "Error Processing XEM Purchase - token sale",
+  "html": ""
+  },
+  "fiveMillionPurchasedEmail": {
+    "to": "youremail@someemail.io, anotheremail@someemail.io",
+    "subject": "5,000,000 Token Purchased - token sale",
+    "html": ""
+  }
+}

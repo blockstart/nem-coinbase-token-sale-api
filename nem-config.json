@@ -1,0 +1,7 @@
+{
+  "walletPath": "./token-holding-wallet.wlt",
+  "walletPassword": "12345678",
+  "mosaicForTransfer": "cache",
+  "mosaicNamespace": "cache",
+  "multisigAddress": "TBH7XNWJCAXFZMIZNB2IITCKUWOFEYUZJARU4AV7"
+}

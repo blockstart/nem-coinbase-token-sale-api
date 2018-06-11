@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "inlineSources": true,
+	  	"allowJs": true,
+        "outDir": "dist",
+        "baseUrl": "./src",
+        "experimentalDecorators": true,
+	  	"emitDecoratorMetadata": true,
+        "paths": {
+		  	"server/*": ["server/*"],
+            "api/*": ["api/*"],
+            "utilities/*": ["utilities/*"],
+            "interfaces/*": ["interfaces/*"],
+            "models/*": ["models/*"],
+            "services/*": ["services/*"],
+		  	"test/*": ["../test/*"]
+        },
+        "lib": ["es6","es2015","dom","esnext"]
+    },
+    "include": [
+        "src/**/*.ts",
+	  	"test/**/*.ts"
+    ],
+    "files": [
+      "src/model/globals.d.ts"
+    ],
+    "exclude": [
+        "node_modules/**/*.d.ts",
+        "node_modules/@types/*"
+    ]
+}

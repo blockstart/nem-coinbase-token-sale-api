@@ -1,0 +1,48 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+package-lock.json
+
+pids
+logs
+results
+tmp
+
+#Build
+develop/
+localdev/
+staging/
+production/
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+bower_components
+package-lock.json
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore build files/folders
+dist
+dist/**/*
+staging
+staging/**/*
+dev
+dev/**/*
+localdev
+localdev/**/*
+
