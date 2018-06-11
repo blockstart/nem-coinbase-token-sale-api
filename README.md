@@ -109,6 +109,7 @@ You will now have a PM2 process running named `api-token-production` running on 
 Learn more about PM2 [here](http://pm2.keymetrics.io/).
 
 **NGINX**
+
 We recommend NGINX for reverse proxy and node apps. Here is an example config that you can put in `/etc/nginx/sites-available`
 
 ```nginx
