@@ -1,3 +1,5 @@
+![nem token sale](/readme-images/nemtokensale.png?raw=true "NEM Token Sale")
+
 # NEM Coinbase Token Sale API
 
 This repo provides all of the code needed to operate a token sale on the [NEM](https://nem.io) blockchain. 
