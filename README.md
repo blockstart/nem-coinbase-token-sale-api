@@ -135,6 +135,18 @@ A production deployment could flow like this:
 
 That's it.
 
+## Endpoints
+
+Your client apps will interface with the following REST endpoints:
+
+*  GET: `/product/all`
+*  GET: `/product/purchase-lookup-coinbase/:tokenRecipientAddress`
+*  POST: `/transaction/initiate-xem-purchase`
+*  POST `/transaction/initiate-coinbase-purchase`
+*  GET: `/info/tokens-sold`
+*  PUT: `/info/update-usd`
+*  PUT: `/kyc/email`
+
 ## Final Notes
 
 This code uses the MIT license - use it as you see fit. We are not responsible for any bugs or issues in this code. Please review before publishing.
