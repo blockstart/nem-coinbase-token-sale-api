@@ -26,6 +26,7 @@ Requires: Node v8.2+, MongoDB
 4. In a new terminal tab, run `mongod` to start the mongo daemon (if you run into errors in this process it means your MongoDB installation likely isn't properly set up). If successful, the mongo daemon will start, leave this running.
 
 **Seed Test Data**
+
 The only data needed on first build is the token packages you plan to sell.
 
 1. From within your project directory run: `cd test`
