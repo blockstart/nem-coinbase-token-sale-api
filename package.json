@@ -62,8 +62,6 @@
     "@types/morgan": "^1.7.32",
     "@types/node": "^8.0.53",
     "@types/nodemailer": "^4.3.1",
-    "@types/passport": "^0.4.1",
-    "@types/passport-local": "^1.0.32",
     "@types/sinon": "^4.0.0",
     "@types/sinon-chai": "^2.7.29",
     "@types/stripe": "^5.0.1",
