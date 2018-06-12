@@ -97,6 +97,18 @@ Requires: Node v8.2+, MongoDB
 
 * [Node Installation Steps](https://nodejs.org/en/download/)
 * [MongoDB Installation Steps](https://docs.mongodb.com/manual/administration/install-community/)
+
+Prior to deployment you may want to have your pendingXEMCharges expire after 15 minutes. 
+To set this up:
+
+1. Open a terminal window
+2. Run `mongo` to enter the mongo shell
+3. Choose your database ie `use token-production-api`
+4. Run `db.pendingXemCharges.createIndex({"createdAt": 1}, { expireAfterSeconds: 900})`
+
+This will cause records in this database collection to be deleted after 15 minutes automatically.
+
+Deployment steps:
   
 1. Clone this repo: `https://github.com/blockstart/nem-coinbase-token-sale-api.git`  
 2.  Run `cd nem-coinbase-token-sale-api && npm install`
